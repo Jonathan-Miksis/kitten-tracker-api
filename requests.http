@@ -9,3 +9,6 @@ Content-Type: application/json
   "age": 2,
   "color": "brown"
 }
+
+###
+GET http://localhost:3000/kittens/1
