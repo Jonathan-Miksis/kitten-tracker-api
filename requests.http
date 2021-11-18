@@ -1,1 +1,11 @@
 GET http://localhost:3000/kittens
+
+###
+POST http://localhost:3000/kittens
+Content-Type: application/json
+
+{
+  "name": "tubby",
+  "age": 2,
+  "color": "brown"
+}
